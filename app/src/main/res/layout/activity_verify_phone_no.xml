@@ -40,22 +40,34 @@
         <EditText
             android:id="@+id/et_code_1"
             android:layout_width="40dp"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1" />
 
         <EditText
             android:id="@+id/et_code_2"
             android:layout_width="40dp"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1" />
 
         <EditText
             android:id="@+id/et_code_3"
             android:layout_width="40dp"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1" />
 
         <EditText
             android:id="@+id/et_code_4"
             android:layout_width="40dp"
-            android:layout_height="20dp" />
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="1" />
 
     </LinearLayout>
 
@@ -63,8 +75,8 @@
         android:id="@+id/btn_verify"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Verify"
+        android:layout_marginTop="16dp"
         android:background="@drawable/custom_submit_btn"
-        android:layout_marginTop="16dp"/>
+        android:text="Verify" />
 
 </LinearLayout>
