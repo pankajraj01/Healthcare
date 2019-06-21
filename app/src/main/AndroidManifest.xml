@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MobileNumberPageActivity"></activity>
+        <activity android:name=".NavigationMenuActivity"></activity>
+        <activity android:name=".MobileNumberPageActivity" />
         <activity android:name=".VerifyPhoneNoActivity" />
         <activity android:name=".SignupActivity">
             <intent-filter>

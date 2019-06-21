@@ -40,6 +40,7 @@
             android:drawableLeft="@drawable/ic_person"
             android:drawablePadding="10dp"
             android:hint="Name"
+            android:inputType="text"
             android:padding="5dp" />
 
         <EditText
@@ -50,7 +51,8 @@
             android:drawableLeft="@drawable/ic_email"
             android:drawablePadding="10dp"
             android:hint="Email Id"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:inputType="text"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -85,7 +87,8 @@
             android:drawableLeft="@drawable/ic_location"
             android:drawablePadding="10dp"
             android:hint="Location"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:inputType="text"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -96,7 +99,8 @@
             android:drawableRight="@drawable/ic_visibility"
             android:drawablePadding="10dp"
             android:hint="Password"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:inputType="textPassword"/>
 
         <EditText
             android:layout_width="match_parent"
@@ -107,7 +111,8 @@
             android:drawableRight="@drawable/ic_visibility"
             android:drawablePadding="10dp"
             android:hint="Confirm Password"
-            android:padding="5dp" />
+            android:padding="5dp"
+            android:inputType="textPassword"/>
 
 
     </LinearLayout>
